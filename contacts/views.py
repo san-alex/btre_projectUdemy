@@ -28,13 +28,13 @@ def contacts(request):
         contact.save()
 
         #sending mail
-        send_mail(
-            'Property Inquiry request',
-            'There has been an inquiry made for '+listing+'. Please login to admin area for more details',
-            'santosh.physics.ss@gmail.com',
-            [realtor_email, 'santoshsai233@gmail.com'],
-            fail_silently=True
-        )
+        # send_mail(
+        #     'Property Inquiry request',
+        #     'There has been an inquiry made for '+listing+'. Please login to admin area for more details',
+        #     'mail ID',
+        #     [realtor_email],
+        #     fail_silently=True
+        # )
 
         messages.success(request, 'Your enquery form submitted successfully')
         return redirect('/listings/'+listing_id)

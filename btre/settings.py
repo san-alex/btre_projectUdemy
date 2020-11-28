@@ -146,6 +146,6 @@ MESSAGE_TAGS = {
 #sending mail
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'santosh.physics.ss@gmail.com'
-EMAIL_HOST_PASSWORD = 'santosh0000'
+EMAIL_HOST_USER = 'mail ID'
+EMAIL_HOST_PASSWORD = 'password'
 EMAIL_USE_TLS = True
